@@ -14,13 +14,15 @@ export const metadata: Metadata = {
   description: "Vusal Alakbarov's Portfolio",
 };
 
-export default function RootLayout({
+export default function LocaleLayout({
   children,
+  params: { locale },
 }: Readonly<{
   children: React.ReactNode;
+  params: { locale: string };
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",

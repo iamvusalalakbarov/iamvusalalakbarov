@@ -1,6 +1,9 @@
+import { useTranslations } from "next-intl";
 import { ModeToggle } from "@/components/mode-toggle";
 
-export default function Home() {
+export default function Index() {
+  const t = useTranslations("Index");
+
   return (
     <>
       <header>
@@ -11,6 +14,7 @@ export default function Home() {
           {/* i18n */}
         </div>
       </header>
+      <div>{t("title")}</div>
     </>
   );
 }
