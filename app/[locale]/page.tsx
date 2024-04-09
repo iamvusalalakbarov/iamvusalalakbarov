@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
-import { ModeToggle } from "@/components/mode-toggle";
+import ModeToggle from "@/components/mode-toggle";
+import LanguageToggle from "@/components/language-toggle";
 
 export default function Index() {
   const t = useTranslations("Index");
@@ -9,9 +10,9 @@ export default function Index() {
       <header>
         <h1>{"<iamvusalalakbarov/>"}</h1>
         <nav>{/* several links */}</nav>
-        <div>
+        <div className="flex">
           <ModeToggle />
-          {/* i18n */}
+          <LanguageToggle />
         </div>
       </header>
       <div>{t("title")}</div>

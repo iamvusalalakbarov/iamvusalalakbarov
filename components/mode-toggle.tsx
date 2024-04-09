@@ -1,7 +1,8 @@
 "use client";
 
-import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
+import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
+import { MoonIcon, SunIcon } from "@radix-ui/react-icons";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -10,9 +11,19 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import { Skeleton } from "@/components/ui/skeleton";
 
-export function ModeToggle() {
+export default function ModeToggle() {
+  const [mounted, setMounted] = useState(false);
   const { setTheme } = useTheme();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return <Skeleton className="size-9" />;
+  }
 
   return (
     <DropdownMenu>
