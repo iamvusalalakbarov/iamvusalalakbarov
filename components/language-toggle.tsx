@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { usePathname } from "next/navigation";
+import { useLocale } from "next-intl";
 import { useRouter } from "@/lib/navigation";
 import { Az, Tr, Gb } from "react-flags-select";
 import clsx from "clsx";
@@ -17,9 +17,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 
 export default function LanguageToggle() {
   const [mounted, setMounted] = useState(false);
-  const pathname = usePathname();
   const router = useRouter();
-  const currentLocale = pathname.split("/")[1];
+  const currentLocale = useLocale();
 
   useEffect(() => {
     setMounted(true);
