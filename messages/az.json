@@ -1,5 +1,10 @@
 {
   "Index": {
     "title": "Salam, dünya!"
+  },
+  "ModeToggle": {
+    "light": "Açıq",
+    "dark": "Tünd",
+    "system": "Sistem"
   }
 }

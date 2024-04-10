@@ -1,5 +1,10 @@
 {
   "Index": {
     "title": "Merhaba, dünya!"
+  },
+  "ModeToggle": {
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem"
   }
 }
