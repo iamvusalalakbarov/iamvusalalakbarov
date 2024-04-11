@@ -2,6 +2,12 @@
   "Index": {
     "title": "Hello world!"
   },
+  "Nav": {
+    "about": "About",
+    "education": "Education",
+    "projects": "Projects",
+    "interests": "Interests"
+  },
   "ModeToggle": {
     "light": "Light",
     "dark": "Dark",

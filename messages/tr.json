@@ -2,6 +2,12 @@
   "Index": {
     "title": "Merhaba, dünya!"
   },
+  "Nav": {
+    "about": "Hakkımda",
+    "education": "Eğitim",
+    "projects": "Projeler",
+    "interests": "İlgi alanlarım"
+  },
   "ModeToggle": {
     "light": "Açık",
     "dark": "Koyu",
