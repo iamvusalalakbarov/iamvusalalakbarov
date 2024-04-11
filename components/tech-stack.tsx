@@ -13,7 +13,7 @@ import {
 
 export default function TechStack() {
   const [mounted, setMounted] = useState(false);
-  const { theme } = useTheme();
+  const { resolvedTheme } = useTheme();
 
   useEffect(() => {
     setMounted(true);
@@ -26,35 +26,35 @@ export default function TechStack() {
   const techStack = [
     {
       name: "HTML",
-      src: `https://skillicons.dev/icons?i=html&theme=${theme}`,
+      src: `https://skillicons.dev/icons?i=html&theme=${resolvedTheme}`,
     },
     {
       name: "CSS",
-      src: `https://skillicons.dev/icons?i=css&theme=${theme}`,
+      src: `https://skillicons.dev/icons?i=css&theme=${resolvedTheme}`,
     },
     {
       name: "JavaScript",
-      src: `https://skillicons.dev/icons?i=js&theme=${theme}`,
+      src: `https://skillicons.dev/icons?i=js&theme=${resolvedTheme}`,
     },
     {
       name: "TypeScript",
-      src: `https://skillicons.dev/icons?i=ts&theme=${theme}`,
+      src: `https://skillicons.dev/icons?i=ts&theme=${resolvedTheme}`,
     },
     {
       name: "React.js",
-      src: `https://skillicons.dev/icons?i=react&theme=${theme}`,
+      src: `https://skillicons.dev/icons?i=react&theme=${resolvedTheme}`,
     },
     {
       name: "Next.js",
-      src: `https://skillicons.dev/icons?i=next&theme=${theme}`,
+      src: `https://skillicons.dev/icons?i=next&theme=${resolvedTheme}`,
     },
     {
       name: "SASS",
-      src: `https://skillicons.dev/icons?i=sass&theme=${theme}`,
+      src: `https://skillicons.dev/icons?i=sass&theme=${resolvedTheme}`,
     },
     {
       name: "Tailwind CSS",
-      src: `https://skillicons.dev/icons?i=tailwind&theme=${theme}`,
+      src: `https://skillicons.dev/icons?i=tailwind&theme=${resolvedTheme}`,
     },
   ];
 
