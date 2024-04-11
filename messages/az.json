@@ -9,5 +9,11 @@
     "light": "Açıq",
     "dark": "Tünd",
     "system": "Sistem"
+  },
+  "Hero": {
+    "welcome": "Portfolioma xoş gəlmisiniz,",
+    "i-am": "Mən",
+    "name": "Vüsal Ələkbərov",
+    "paragraph": "Təmiz və səmərəli kod yazmağa yönəlmiş bir \"front-end\" tərtibatçısıyam. Bakı, Azərbaycanda yaşayıram."
   }
 }

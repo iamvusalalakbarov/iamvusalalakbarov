@@ -9,5 +9,11 @@
     "light": "Açık",
     "dark": "Koyu",
     "system": "Sistem"
+  },
+  "Hero": {
+    "welcome": "Portföyüme hoşgeldiniz,",
+    "i-am": "Ben",
+    "name": "Vusal Alakbarov",
+    "paragraph": "Temiz ve verimli kod yazmaya odaklanmış bir front-end geliştiriciyim. Bakü, Azerbaycan'da oturuyorum."
   }
 }

@@ -9,5 +9,11 @@
     "light": "Light",
     "dark": "Dark",
     "system": "System"
+  },
+  "Hero": {
+    "welcome": "Welcome to my portfolio,",
+    "i-am": "I am",
+    "name": "Vusal Alakbarov",
+    "paragraph": "A passionate front-end developer focused to write clean and efficient code, based in Baku, Azerbaijan."
   }
 }
