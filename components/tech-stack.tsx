@@ -10,6 +10,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { Skeleton } from "./ui/skeleton";
 
 export default function TechStack() {
   const [mounted, setMounted] = useState(false);
@@ -18,10 +19,6 @@ export default function TechStack() {
   useEffect(() => {
     setMounted(true);
   }, []);
-
-  if (!mounted) {
-    return null;
-  }
 
   const techStack = [
     {
@@ -64,18 +61,29 @@ export default function TechStack() {
         Tech Stack
       </span>
       <div className="grid grid-cols-4 md:grid-cols-8 gap-4">
-        {techStack.map((tech, index) => (
-          <TooltipProvider delayDuration={300} key={index}>
-            <Tooltip>
-              <TooltipTrigger className="cursor-default">
-                <Image src={tech.src} alt={tech.name} width={50} height={50} />
-              </TooltipTrigger>
-              <TooltipContent className="dark:text-foreground">
-                {tech.name}
-              </TooltipContent>
-            </Tooltip>
-          </TooltipProvider>
-        ))}
+        {techStack.map((tech, index) =>
+          !mounted ? (
+            <Skeleton className="size-[50px]" key={index} />
+          ) : (
+            mounted && (
+              <TooltipProvider delayDuration={300} key={index}>
+                <Tooltip>
+                  <TooltipTrigger className="cursor-default">
+                    <Image
+                      src={tech.src}
+                      alt={tech.name}
+                      width={50}
+                      height={50}
+                    />
+                  </TooltipTrigger>
+                  <TooltipContent className="dark:text-foreground">
+                    {tech.name}
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+            )
+          )
+        )}
       </div>
     </div>
   );
