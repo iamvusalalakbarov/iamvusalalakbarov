@@ -5,9 +5,8 @@ export default function Index() {
   const t = useTranslations("Index");
 
   return (
-    <>
-      <Header />
+    <main>
       <div>{t("title")}</div>
-    </>
+    </main>
   );
 }

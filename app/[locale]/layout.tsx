@@ -3,6 +3,7 @@ import { Nunito as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
 import { NextIntlClientProvider, useMessages } from "next-intl";
+import Header from "@/components/header";
 import "@/styles/globals.css";
 
 const fontSans = FontSans({
@@ -39,6 +40,7 @@ export default function LocaleLayout({
           disableTransitionOnChange
         >
           <NextIntlClientProvider locale={locale} messages={messages}>
+            <Header />
             {children}
           </NextIntlClientProvider>
         </ThemeProvider>
