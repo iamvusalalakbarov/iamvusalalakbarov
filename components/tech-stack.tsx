@@ -65,16 +65,10 @@ export default function TechStack() {
       </span>
       <div className="grid grid-cols-4 md:grid-cols-8 gap-4">
         {techStack.map((tech, index) => (
-          <TooltipProvider delayDuration={300}>
+          <TooltipProvider delayDuration={300} key={index}>
             <Tooltip>
               <TooltipTrigger className="cursor-default">
-                <Image
-                  src={tech.src}
-                  alt={tech.name}
-                  width={50}
-                  height={50}
-                  key={index}
-                />
+                <Image src={tech.src} alt={tech.name} width={50} height={50} />
               </TooltipTrigger>
               <TooltipContent className="dark:text-foreground">
                 {tech.name}
