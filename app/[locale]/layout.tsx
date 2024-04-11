@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Nunito as FontSans } from "next/font/google";
+import { Montserrat as FontSans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
 import { NextIntlClientProvider, useMessages } from "next-intl";
@@ -29,7 +29,7 @@ export default function LocaleLayout({
     <html lang={locale} suppressHydrationWarning>
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
+          "flex flex-col min-h-screen bg-background font-sans antialiased",
           fontSans.variable
         )}
       >
