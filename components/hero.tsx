@@ -3,7 +3,7 @@ import TechStack from "./tech-stack";
 
 export default function Hero() {
   return (
-    <Section className="flex flex-col justify-center items-center h-[calc(100dvh-64px)]">
+    <Section className="flex flex-col justify-center items-center h-[calc(100svh-64px)]">
       <div>
         <div className="mb-16">
           <span className="text-lg">Welcome to my portfolio, 👋</span>
