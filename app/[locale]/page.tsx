@@ -12,7 +12,7 @@ export default function Home() {
             </p>
             <p className="max-w-xl">
               A passionate front-end developer focused to write clean and
-              efficient code, based in Baku, Azerbaijan. 📍
+              efficient code, especially in React, based in Baku, Azerbaijan. 📍
             </p>
           </div>
 
