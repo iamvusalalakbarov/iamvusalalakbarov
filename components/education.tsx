@@ -3,7 +3,7 @@ import Heading from "./heading";
 
 export default function Education() {
   return (
-    <Section className="">
+    <Section id="education" className="">
       <Heading>Education</Heading>
       
     </Section>
