@@ -34,7 +34,7 @@ export default function Projects() {
   return (
     <Section id="projects" className="">
       <Heading>{t("projects")}</Heading>
-      <div className="flex flex-col gap-y-16 container">
+      <div className="flex flex-col gap-y-16">
         {projects.map((project, index) => (
           <Project project={project} key={index} />
         ))}
