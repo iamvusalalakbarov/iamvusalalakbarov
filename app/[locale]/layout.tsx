@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
 import { NextIntlClientProvider, useMessages } from "next-intl";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 import "@/styles/globals.css";
 
 const fontSans = FontSans({
@@ -42,6 +43,7 @@ export default function LocaleLayout({
           <NextIntlClientProvider locale={locale} messages={messages}>
             <Header />
             {children}
+            <Footer />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
