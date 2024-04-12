@@ -52,7 +52,7 @@ export default function Contact() {
         </a>
 
         <a
-          href="https:linkedin.com/in/iamvusalalakbarov"
+          href="https://linkedin.com/in/iamvusalalakbarov"
           target="_blank"
           className="flex gap-x-3 hover:opacity-50 transition-opacity"
         >
