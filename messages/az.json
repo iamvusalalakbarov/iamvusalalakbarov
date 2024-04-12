@@ -20,5 +20,9 @@
     "projects": "Layihələr",
     "to-do-list": "Şəxsi istifadə üçün Next.js ilə yığılmış sadə, lakin \"full-stack\" \"To Do\" proqramı. Next.js xüsusiyyətləri vasitəsilə autentifikasiya həyata keçirilmiş, məlumatların saxlanılması üçün PostgreSQL-dən istifadə edilmişdir.",
     "digitello": "Next.js ilə yığılmış, \"Digitello Agency\"nin yeni çıxacaq olan vebsaytı. \"Partners\" bölməsində sürüşdürmə funksiyası yaratmaq üçün React Slick kitabxanasından yararlanılmışdır. UI dizaynları hazır olduqca yeni səhifələr əlavə olunacaqdır."
+  },
+  "Contact": {
+    "contact": "Əlaqə",
+    "phone": "Telefon"
   }
 }

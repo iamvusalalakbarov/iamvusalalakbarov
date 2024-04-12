@@ -1,15 +1,13 @@
 import Section from "./section";
 import Heading from "./heading";
+import { useTranslations } from "next-intl";
 
 export default function Contact() {
+  const t = useTranslations("Contact");
+
   return (
     <Section id="contact" className="">
-      <Heading>Contact</Heading>
-      {/*
-        - Email address
-        - Phone number
-        - LinkedIn account
-       */}
+      <Heading>{t("contact")}</Heading>
       <div className="flex flex-col md:flex-row justify-center items-start gap-x-12 gap-y-8">
         <a
           href="mailto:vusal11010@gmail.com"
@@ -46,7 +44,9 @@ export default function Contact() {
           </div>
 
           <div className="flex flex-col">
-            <span className="font-medium text-sm text-primary">Phone</span>
+            <span className="font-medium text-sm text-primary">
+              {t("phone")}
+            </span>
             <span className="block text-xs">+994 99 365 19 51</span>
           </div>
         </a>

@@ -20,5 +20,9 @@
     "projects": "Projects",
     "to-do-list": "A simple, but full-stack To Do app built with Next.js for personal use. Implemented authentication with Next.js features, used PostgreSQL to store data.",
     "digitello": "Upcoming website of Digitello Agency built with Next.js. Used React Slick library to build a slider in Partners section. New pages will be added as UI designs become ready."
+  },
+  "Contact": {
+    "contact": "Contact",
+    "phone": "Phone"
   }
 }
