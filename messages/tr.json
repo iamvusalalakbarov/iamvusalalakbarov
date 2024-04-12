@@ -15,5 +15,10 @@
     "i-am": "Ben",
     "name": "Vusal Alakbarov",
     "paragraph": "Temiz ve verimli kod yazmaya odaklanmış bir front-end geliştiriciyim. Bakü, Azerbaycan'da oturuyorum."
+  },
+  "Projects": {
+    "projects": "Projeler",
+    "to-do-list": "Kişisel kullanım için Next.js ile inşa edilmiş basit, ama full-stack bir To Do uygulaması. Next.js özelliklerinin yardımıyla kimlik doğrulama eklenmiş, veri depolanması için PostgreSQL kullanılmıştır.",
+    "digitello": "Next.js ile inşa edilmiş, Digitello Agency'nin yeni çıkacak olan web sitesi. Partners bölümünde kaydırıcı oluşturmak için React Slick kütüphanesi kullanıldı. UI tasarımları hazır oldukça yeni sayfalar eklenecektir."
   }
 }
