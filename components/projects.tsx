@@ -32,7 +32,7 @@ export default function Projects() {
   ];
 
   return (
-    <Section className="">
+    <Section id="projects" className="">
       <Heading>{t("projects")}</Heading>
       <div className="flex flex-col gap-y-16 container">
         {projects.map((project, index) => (
