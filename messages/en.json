@@ -1,9 +1,9 @@
 {
   "Nav": {
-    "about": "About",
     "education": "Education",
     "projects": "Projects",
-    "interests": "Interests"
+    "experience": "Experience",
+    "contact": "Contact"
   },
   "ModeToggle": {
     "light": "Light",

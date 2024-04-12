@@ -1,9 +1,9 @@
 {
   "Nav": {
-    "about": "Hakkımda",
     "education": "Eğitim",
     "projects": "Projeler",
-    "interests": "İlgi alanlarım"
+    "experience": "Tecrübe",
+    "contact": "İletişim"
   },
   "ModeToggle": {
     "light": "Açık",
