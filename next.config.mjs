@@ -13,6 +13,12 @@ const nextConfig = {
         port: "",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "api.screenshotone.com",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };
