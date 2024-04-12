@@ -1,20 +1,13 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
 import { Badge } from "./ui/badge";
-import { Skeleton } from "./ui/skeleton";
 
 export default function Project({ project }: Readonly<{ project: any }>) {
-  const [imageLoaded, setImageLoaded] = useState(false);
-
   return (
     <div className="flex flex-col md:flex-row gap-x-12">
       <div className="relative">
         <a href={project.link} target="_blank">
-          {!imageLoaded && (
-            <Skeleton className="w-[488px] h-[275px] absolute inset-0" />
-          )}
           <Image
             src={project.src}
             alt={project.name}
@@ -22,7 +15,6 @@ export default function Project({ project }: Readonly<{ project: any }>) {
             height={275}
             unoptimized
             priority
-            onLoad={() => setImageLoaded(true)}
             className="rounded-lg border-2 border-blue-700 dark:border-opacity-50 hover:opacity-75 transition-opacity"
           />
         </a>

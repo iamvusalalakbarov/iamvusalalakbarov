@@ -10,7 +10,7 @@ export default function Projects() {
     {
       name: "To Do List",
       description: t("to-do-list"),
-      src: "https://shot.screenshotapi.net/screenshot?token=75FC2AA-VH44AXY-J9BB1C7-6824WCV&url=https%3A%2F%2Fto-do-list-blue-seven-44.vercel.app%2F&fresh=true&output=image&file_type=png&wait_for_event=load",
+      src: "/project-screenshots/to-do-list.png",
       github: "https://github.com/iamvusalalakbarov/to-do-list",
       link: "https://to-do-list-blue-seven-44.vercel.app/",
       techs: [
@@ -24,7 +24,7 @@ export default function Projects() {
     {
       name: "Digitello",
       description: t("digitello"),
-      src: "https://shot.screenshotapi.net/screenshot?token=75FC2AA-VH44AXY-J9BB1C7-6824WCV&url=https%3A%2F%2Fdigitello.vercel.app%2F&fresh=true&output=image&file_type=png&wait_for_event=load",
+      src: "/project-screenshots/digitello.png",
       github: "https://github.com/iamvusalalakbarov/digitello",
       link: "https://digitello.vercel.app/",
       techs: ["React.js", "Next.js", "Tailwind CSS", "React Slick"],
