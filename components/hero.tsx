@@ -6,7 +6,7 @@ export default function Hero() {
   const t = useTranslations("Hero");
 
   return (
-    <Section className="flex flex-col justify-center items-center h-[calc(100svh-64px)]">
+    <Section id="hero" className="flex flex-col justify-center items-center h-[calc(100svh-64px)]">
       <div className="flex flex-col justify-center items-center text-center md:text-left md:block mb-16">
         <span className="text-lg">{t("welcome")} 👋</span>
         <p className="font-bold text-6xl">
