@@ -58,7 +58,7 @@ export default function TechStack() {
 
   return (
     <div className="flex flex-col md:flex-row justify-center items-center">
-      <span className="p-6 md:pl-0 border-b-2 md:border-b-0 md:border-r-2 text-lg mb-6 md:mb-0 md:mr-6 leading-none">
+      <span className="p-6 md:pl-0 border-b-2 md:border-b-0 md:border-r-2 font-semibold text-lg mb-6 md:mb-0 md:mr-6 leading-none">
         Tech Stack
       </span>
       <div className="grid grid-cols-4 md:grid-cols-8 gap-4">
