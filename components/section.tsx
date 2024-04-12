@@ -6,6 +6,6 @@ export default function Section({
   children: React.ReactNode;
 }>) {
   return (
-    <section className={`p-2 md:p-6 lg:p-12 ${className}`}>{children}</section>
+    <section className={`px-2 md:px-6 lg:px-12 mb-32 ${className}`}>{children}</section>
   );
 }
