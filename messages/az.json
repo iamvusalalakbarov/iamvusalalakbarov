@@ -16,6 +16,27 @@
     "name": "Vüsal Ələkbərov",
     "paragraph": "Təmiz və səmərəli kod yazmağa yönəlmiş bir \"front-end\" tərtibatçısıyam. Bakı, Azərbaycanda yaşayıram."
   },
+  "Education": {
+    "education": "Təhsil",
+    "asoiu": {
+      "value": "ADNSU",
+      "name": "Azərbaycan Dövlət Neft və Sənaye Universiteti",
+      "department": "Kompüter Mühəndisliyi üzrə Bakalavr dərəcəsi",
+      "location": "Bakı, Azərbaycan",
+      "description": "Hər nə qədər bu universitetə yüksək balla daxil olsam da, təhsilin yetərsizliyi başda olmaqla bir neçə səbəbdən ötrü burada davam etməkdə bir gələcək görmədim və universiteti tərk edərək, yenidən başlamaq qərarına gəldim. Burada keçirdiyim 2 ildə mühəndisliyin təməli adlandırıla biləcək şeyləri öyrəndim, lakin ixtisas və xüsusilə proqramlaşdırma adına faydalı bir dərs görə bilmədim."
+    },
+    "au": {
+      "name": "\"Akdeniz\" Universiteti",
+      "department": "Kompüter Elmləri və Mühəndisliyi üzrə Bakalavr dərəcəsi",
+      "location": "Antalya, Türkiyə",
+      "description": "İlk universitetimi tərk etdikdən sonra burada sıfırdan başladım və ilk ilimdə ingilis dili üzrə hazırlıq kursunu keçdim. İxtisas təhsili boyunca istər proqramlaşdırma, istərsə də mühəndislik adına bir çox şey öyrəndim. Bu gün texniki biliklərim arasında olan Java, Python, MySQL kimi proqramlaşdırma və sorğu dillərini; SOLID, MVC kimi dizayn prinsiplərini; data strukturları və alqoritmləri və daha bir çox şeyi məhz buradakı tədris müddətimdə əldə etmişəm. \"Google Developer Student Clubs\" kimi tələbə təşkilatlarından birində iştirak edərək, müəyyən təcrübələr də qazanmışam."
+    },
+    "ss": {
+      "name": "\"Self-study\"",
+      "period": "Ömür boyu",
+      "description": "Məlum olduğu kimi, universitetlər daha çox mühəndislik biliklərinin tədrisini təmin edərkən, proqram təminatı sahəsindəki mövcud yeniliklərə uyğunlaşmaqda çətinlik çəkirlər. Bu səbəbdən biz tələbələr proqram təminatı üçün fərdi araşdırmalara və tədqiqatlara müraciət edirik. Eynilə, mən də onlayn resursların köməyi ilə, xüsusən də front-end sahəsində, bir çox şey öyrəndim. İxtisaslaşmağı hədəflədiyim React.js və Next.js kimi texnologiyaları rəsmi dokumentasiyaları vasitəsilə öyrəndim. Bundan əlavə, \"YouTube\"dakı müxtəlif kontentlər sayəsində HTML və CSS kimi əsas elementləri öyrəndim. Bu gün də yeni bilik və bacarıqlar əldə etmək üçün araşdırmalara, öyrənməyə və təcrübə etməyə davam edirəm."
+    }
+  },
   "Projects": {
     "projects": "Layihələr",
     "to-do-list": "Şəxsi istifadə üçün Next.js ilə yığılmış sadə, lakin \"full-stack\" \"To Do\" proqramı. Next.js xüsusiyyətləri vasitəsilə autentifikasiya həyata keçirilmiş, məlumatların saxlanılması üçün PostgreSQL-dən istifadə edilmişdir.",

@@ -16,6 +16,27 @@
     "name": "Vusal Alakbarov",
     "paragraph": "Temiz ve verimli kod yazmaya odaklanmış bir front-end geliştiriciyim. Bakü, Azerbaycan'da oturuyorum."
   },
+  "Education": {
+    "education": "Eğitim",
+    "asoiu": {
+      "value": "ASOIU",
+      "name": "Azerbaycan Devlet Petrol ve Sanayi Üniversitesi",
+      "department": "Bilgisayar Mühendisliği alanında Lisans",
+      "location": "Bakü, Azerbaycan",
+      "description": "Bu üniversiteye yüksek notlarla girmeme rağmen eğitim eksikliği başta olmak üzere çeşitli nedenlerden dolayı burada devam etmekte bir gelecek göremediğim için üniversiteyi bırakıp yeniden başlamaya karar verdim. Burada geçirdiğim 2 yılda mühendisliğin temelleri denilebilecek şeyleri öğrendim, ama uzmanlık ve özellikle programlama adına işe yarar bir ders göremedim."
+    },
+    "au": {
+      "name": "Akdeniz Üniversitesi",
+      "department": "Bilgisayar Bilimleri ve Mühendisliği alanında Lisans",
+      "location": "Antalya, Türkiye",
+      "description": "İlk üniversitemden ayrıldıktan sonra burada sıfırdan başladım ve ilk yılımda İngilizce hazırlık kursu aldım. Eğitimim sırasında programlama ve mühendislik hakkında çok şey öğrendim. Bugünkü teknik bilgilerim arasında yer alan Java, Python, MySQL gibi programlama ve sorgu dillerini; SOLID, MVC gibi tasarım ilkelerini; veri yapılarını ve algoritmaları ve daha birçok şeyi buradaki eğitimim sürecinde edindim. Google Developer Student Clubs gibi öğrenci topluluklarından birine katılarak deneyim de kazandım."
+    },
+    "ss": {
+      "name": "Self-study",
+      "period": "Ömür boyu",
+      "description": "Bilindiği üzere, üniversiteler daha çok mühendislik alanında eğitim sunarken, yazılım alanının güncel gelişmelerine adapte olmakta zorlanıyor. Bu nedenle biz öğrenciler, yazılım için bireysel araştırma ve çalışmalara başvuruyoruz. Keza ben de çevrimiçi kaynaklar yardımıyla, özellikle front-end alanında, birçok şey öğrendim. Uzmanlaşmayı hedeflediğim React.js ve Next.js gibi teknolojilere resmi dokümentasyonlarından çalıştım. Bunların yanı sıra HTML, CSS gibi temel unsurları YouTube'daki çeşitli içerikler vasıtasıyla öğrendim. Bu gün de, yeni bilgiler ve beceriler edinmek için araştırmaya, öğrenmeye ve pratiğe devam ediyorum."
+    }
+  },
   "Projects": {
     "projects": "Projeler",
     "to-do-list": "Kişisel kullanım için Next.js ile inşa edilmiş basit, ama full-stack bir To Do uygulaması. Next.js özelliklerinin yardımıyla kimlik doğrulama eklenmiş, veri depolanması için PostgreSQL kullanılmıştır.",

@@ -16,6 +16,27 @@
     "name": "Vusal Alakbarov",
     "paragraph": "A passionate front-end developer focused to write clean and efficient code, based in Baku, Azerbaijan."
   },
+  "Education": {
+    "education": "Education",
+    "asoiu": {
+      "value": "ASOIU",
+      "name": "Azerbaijan State Oil and Industry University",
+      "department": "BSc in Computer Engineering",
+      "location": "Baku, Azerbaijan",
+      "description": "Although I entered this university with high score, due to several reasons, including the lack of education, I did not see a future in continuing here and decided to leave the university and start over. In the 2 years I spent here, I learned what could be called the basics of engineering, but I could not find a useful course in the name of specialization and especially programming."
+    },
+    "au": {
+      "name": "Akdeniz University",
+      "department": "BSc in Computer Science & Engineering",
+      "location": "Antalya, Türkiye",
+      "description": "After leaving my first university, I started from scratch here and took an English foundation course in my first year. I learned a lot about programming and engineering during my studies. It was during my studies here that I acquired programming and query languages such as Java, Python, MySQL; design principles such as SOLID, MVC; data structures and algorithms, and many more which are among my technical knowledge today. By participating in one of the student organizations such as Google Developer Student Clubs, I gained some experience too."
+    },
+    "ss": {
+      "name": "Self-study",
+      "period": "Lifelong",
+      "description": "As it is known, while universities offer education mostly in the field of engineering, they have difficulty adapting to the current developments in the software field. For this reason, we, students, resort to individual research and studies for the software. Likewise, I learned a lot with the help of online resources, especially in the front-end field. I studied the official documentation for technologies such as React.js and Next.js, which I aimed to specialize in. In addition, I learned basic elements such as HTML and CSS through various content on YouTube. Today, I continue to research, learn and practice to acquire new knowledge and skills."
+    }
+  },
   "Projects": {
     "projects": "Projects",
     "to-do-list": "A simple, but full-stack To Do app built with Next.js for personal use. Implemented authentication with Next.js features, used PostgreSQL to store data.",
