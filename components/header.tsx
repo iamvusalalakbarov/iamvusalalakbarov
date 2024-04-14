@@ -1,5 +1,6 @@
 import IAmVusalAlakbarov from "./iamvusalalakbarov";
 import Nav from "./nav";
+import CVButton from "@/components/cv-button";
 import ModeToggle from "@/components/mode-toggle";
 import LanguageToggle from "@/components/language-toggle";
 
@@ -9,6 +10,7 @@ export default function Header() {
       <IAmVusalAlakbarov />
       <Nav />
       <div className="flex justify-center items-center gap-x-2">
+        <CVButton />
         <ModeToggle />
         <LanguageToggle />
       </div>
