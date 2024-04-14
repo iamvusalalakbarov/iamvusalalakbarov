@@ -53,7 +53,7 @@ export default function Education() {
             {study.department && (
               <div className="text-sm">{study.department}</div>
             )}
-            <div className="flex justify-between items-center font-light text-xs opacity-50 mb-2">
+            <div className="flex justify-between items-center text-xs opacity-80 dark:opacity-50 mb-2">
               <span>{study.period}</span>
               {study.location && <span>{study.location}</span>}
             </div>
