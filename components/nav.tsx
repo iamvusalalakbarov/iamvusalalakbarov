@@ -5,8 +5,6 @@ export default function Nav() {
   const t = useTranslations("Nav");
 
   const links = [
-    // TODO: Create sections: Education, Projects (ready), Experience, Contact
-    // Skills? Interests?
     {
       title: t("education"),
       href: "#education",
@@ -14,10 +12,6 @@ export default function Nav() {
     {
       title: t("projects"),
       href: "#projects",
-    },
-    {
-      title: t("experience"),
-      href: "#experience",
     },
     {
       title: t("contact"),
