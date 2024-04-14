@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <Section id="contact" className="">
       <Heading>{t("contact")}</Heading>
-      <div className="flex flex-col md:flex-row justify-center gap-x-12 gap-y-8">
+      <div className="grid lg:flex md:grid-cols-2 gap-x-12 gap-y-4">
         <a
           href="mailto:vusal11010@gmail.com"
           className="flex gap-x-3 hover:opacity-50 transition-opacity"
