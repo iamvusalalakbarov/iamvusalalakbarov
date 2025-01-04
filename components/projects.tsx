@@ -29,6 +29,21 @@ export default function Projects() {
       link: "https://digitello.vercel.app/",
       techs: ["React.js", "Next.js", "Tailwind CSS", "React Slick"],
     },
+    {
+      name: "Klothink",
+      description: t("klothink"),
+      src: "/project-screenshots/klothink.png",
+      github: "https://github.com/iamvusalalakbarov/klothink",
+      link: "https://klothink-pied.vercel.app/",
+      techs: [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Swiper.js",
+        "TypeScript",
+        "Mantine UI",
+      ],
+    },
   ];
 
   return (

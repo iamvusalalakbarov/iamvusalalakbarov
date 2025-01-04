@@ -39,7 +39,8 @@
   "Projects": {
     "projects": "Layihələr",
     "to-do-list": "Şəxsi istifadə üçün Next.js ilə yığılmış sadə, lakin \"full-stack\" \"To Do\" proqramı. Next.js xüsusiyyətləri vasitəsilə autentifikasiya həyata keçirilmiş, məlumatların saxlanılması üçün PostgreSQL-dən istifadə edilmişdir.",
-    "digitello": "Next.js ilə yığılmış, \"Digitello Agency\"nin yeni çıxacaq olan vebsaytı. \"Partners\" bölməsində sürüşdürmə funksiyası yaratmaq üçün React Slick kitabxanasından yararlanılmışdır. UI dizaynları hazır olduqca yeni səhifələr əlavə olunacaqdır."
+    "digitello": "Next.js ilə yığılmış, \"Digitello Agency\"nin yeni çıxacaq olan vebsaytı. \"Partners\" bölməsində sürüşdürmə funksiyası yaratmaq üçün React Slick kitabxanasından yararlanılmışdır. UI dizaynları hazır olduqca yeni səhifələr əlavə olunacaqdır.",
+    "klothink": "Next.js və TypeScript istifadə edərək hazırlanmış e-ticarət geyim vebsaytı. İstifadəçi interfeysi Praha-dan götürülmüşdür. Klothink müasir və istifadəçi dostu alış-veriş təcrübəsi təqdim edir."
   },
   "Contact": {
     "contact": "Əlaqə",

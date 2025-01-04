@@ -39,7 +39,8 @@
   "Projects": {
     "projects": "Projects",
     "to-do-list": "A simple, but full-stack To Do app built with Next.js for personal use. Implemented authentication with Next.js features, used PostgreSQL to store data.",
-    "digitello": "Upcoming website of Digitello Agency built with Next.js. Used React Slick library to build a slider in Partners section. New pages will be added as UI designs become ready."
+    "digitello": "Upcoming website of Digitello Agency built with Next.js. Used React Slick library to build a slider in Partners section. New pages will be added as UI designs become ready.",
+    "klothink": "An e-commerce clothing website built using Next.js and TypeScript. The UI design is sourced from Praha. Klothink delivers a modern and user-friendly shopping experience."
   },
   "Contact": {
     "contact": "Contact",
