@@ -24,8 +24,8 @@ export default function LanguageToggle() {
     setMounted(true);
   }, []);
 
-  function changeLanguage(value: string) {
-    const locale = value;
+  function changeLanguage(value: "az" | "tr" | "en") {
+    const locale: "az" | "tr" | "en" = value;
     router.push("/", { locale });
   }
 
