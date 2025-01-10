@@ -44,6 +44,14 @@ export default function Projects() {
         "Mantine UI",
       ],
     },
+    {
+      name: "Tibbonline",
+      description: t("tibbonline"),
+      src: "/project-screenshots/tibbonline.png",
+      github: "https://github.com/iamvusalalakbarov/tibbonline",
+      link: "https://tibbonline.vercel.app/",
+      techs: ["Vanilla JavaScript", "Vite", "SASS", "Swiper", "AOS"],
+    },
   ];
 
   return (
